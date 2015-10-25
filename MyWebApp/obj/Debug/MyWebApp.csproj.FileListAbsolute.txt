@@ -1,0 +1,348 @@
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\csc.exe
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\System.Collections.Immutable.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\System.Reflection.Metadata.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\vbc.exe
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\VBCSCompiler.exe
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\roslyn\VBCSCompiler.exe.config
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\MyWebApp.dll.config
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\MyWebApp.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\MyWebApp.pdb
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Antlr3.Runtime.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\EntityFramework.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\EntityFramework.SqlServer.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.Google.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Web.Infrastructure.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Newtonsoft.Json.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Owin.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.Helpers.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.Mvc.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.Optimization.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.Razor.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.WebPages.Deployment.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.WebPages.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.WebPages.Razor.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\WebGrease.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.Helpers.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.Mvc.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.Optimization.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.Razor.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.WebPages.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.WebPages.Deployment.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\System.Web.WebPages.Razor.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Antlr3.Runtime.pdb
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Newtonsoft.Json.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\EntityFramework.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\EntityFramework.SqlServer.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.Google.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\obj\Debug\MyWebApp.csprojResolveAssemblyReference.cache
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\obj\Debug\MyWebApp.dll
+\\mac\home\documents\visual studio 2015\Projects\MyWebApp\MyWebApp\obj\Debug\MyWebApp.pdb
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\csc.exe
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\System.Collections.Immutable.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\System.Reflection.Metadata.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\vbc.exe
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\VBCSCompiler.exe
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\roslyn\VBCSCompiler.exe.config
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\MyWebApp.dll.config
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\MyWebApp.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\MyWebApp.pdb
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Antlr3.Runtime.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\EntityFramework.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\EntityFramework.SqlServer.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.Google.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Web.Infrastructure.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Newtonsoft.Json.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Owin.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.Helpers.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.Mvc.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.Optimization.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.Razor.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.WebPages.Deployment.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.WebPages.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.WebPages.Razor.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\WebGrease.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.Helpers.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.Mvc.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.Optimization.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.Razor.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.WebPages.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.WebPages.Deployment.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\System.Web.WebPages.Razor.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Antlr3.Runtime.pdb
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Newtonsoft.Json.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\EntityFramework.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\EntityFramework.SqlServer.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.Google.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\obj\Debug\MyWebApp.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\obj\Debug\MyWebApp.dll
+\\Mac\Home\Documents\GitHub\DwdApp\MyWebApp\obj\Debug\MyWebApp.pdb
+F:\Git Project\MyWebApp\bin\roslyn\csc.exe
+F:\Git Project\MyWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Git Project\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Git Project\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Git Project\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Git Project\MyWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Git Project\MyWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Git Project\MyWebApp\bin\roslyn\System.Collections.Immutable.dll
+F:\Git Project\MyWebApp\bin\roslyn\System.Reflection.Metadata.dll
+F:\Git Project\MyWebApp\bin\roslyn\vbc.exe
+F:\Git Project\MyWebApp\bin\roslyn\VBCSCompiler.exe
+F:\Git Project\MyWebApp\bin\roslyn\VBCSCompiler.exe.config
+F:\Git Project\MyWebApp\bin\MyWebApp.dll.config
+F:\Git Project\MyWebApp\bin\MyWebApp.dll
+F:\Git Project\MyWebApp\bin\MyWebApp.pdb
+F:\Git Project\MyWebApp\bin\Antlr3.Runtime.dll
+F:\Git Project\MyWebApp\bin\EntityFramework.dll
+F:\Git Project\MyWebApp\bin\EntityFramework.SqlServer.dll
+F:\Git Project\MyWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Git Project\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Git Project\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Git Project\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.Google.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Git Project\MyWebApp\bin\Microsoft.Web.Infrastructure.dll
+F:\Git Project\MyWebApp\bin\Newtonsoft.Json.dll
+F:\Git Project\MyWebApp\bin\Owin.dll
+F:\Git Project\MyWebApp\bin\System.Web.Helpers.dll
+F:\Git Project\MyWebApp\bin\System.Web.Mvc.dll
+F:\Git Project\MyWebApp\bin\System.Web.Optimization.dll
+F:\Git Project\MyWebApp\bin\System.Web.Razor.dll
+F:\Git Project\MyWebApp\bin\System.Web.WebPages.Deployment.dll
+F:\Git Project\MyWebApp\bin\System.Web.WebPages.dll
+F:\Git Project\MyWebApp\bin\System.Web.WebPages.Razor.dll
+F:\Git Project\MyWebApp\bin\WebGrease.dll
+F:\Git Project\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Git Project\MyWebApp\bin\System.Web.Helpers.xml
+F:\Git Project\MyWebApp\bin\System.Web.Mvc.xml
+F:\Git Project\MyWebApp\bin\System.Web.Optimization.xml
+F:\Git Project\MyWebApp\bin\System.Web.Razor.xml
+F:\Git Project\MyWebApp\bin\System.Web.WebPages.xml
+F:\Git Project\MyWebApp\bin\System.Web.WebPages.Deployment.xml
+F:\Git Project\MyWebApp\bin\System.Web.WebPages.Razor.xml
+F:\Git Project\MyWebApp\bin\Antlr3.Runtime.pdb
+F:\Git Project\MyWebApp\bin\Newtonsoft.Json.xml
+F:\Git Project\MyWebApp\bin\EntityFramework.xml
+F:\Git Project\MyWebApp\bin\EntityFramework.SqlServer.xml
+F:\Git Project\MyWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Git Project\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Git Project\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.Google.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Git Project\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Git Project\MyWebApp\obj\Debug\MyWebApp.csprojResolveAssemblyReference.cache
+F:\Git Project\MyWebApp\obj\Debug\MyWebApp.dll
+F:\Git Project\MyWebApp\obj\Debug\MyWebApp.pdb
+D:\hwipro\MyWebApp\bin\roslyn\csc.exe
+D:\hwipro\MyWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\hwipro\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\hwipro\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\hwipro\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\hwipro\MyWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\hwipro\MyWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\hwipro\MyWebApp\bin\roslyn\System.Collections.Immutable.dll
+D:\hwipro\MyWebApp\bin\roslyn\System.Reflection.Metadata.dll
+D:\hwipro\MyWebApp\bin\roslyn\vbc.exe
+D:\hwipro\MyWebApp\bin\roslyn\VBCSCompiler.exe
+D:\hwipro\MyWebApp\bin\roslyn\VBCSCompiler.exe.config
+D:\hwipro\MyWebApp\bin\MyWebApp.dll.config
+D:\hwipro\MyWebApp\bin\MyWebApp.dll
+D:\hwipro\MyWebApp\bin\MyWebApp.pdb
+D:\hwipro\MyWebApp\bin\Antlr3.Runtime.dll
+D:\hwipro\MyWebApp\bin\EntityFramework.dll
+D:\hwipro\MyWebApp\bin\EntityFramework.SqlServer.dll
+D:\hwipro\MyWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+D:\hwipro\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\hwipro\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\hwipro\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.Google.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+D:\hwipro\MyWebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\hwipro\MyWebApp\bin\Newtonsoft.Json.dll
+D:\hwipro\MyWebApp\bin\Owin.dll
+D:\hwipro\MyWebApp\bin\System.Web.Helpers.dll
+D:\hwipro\MyWebApp\bin\System.Web.Mvc.dll
+D:\hwipro\MyWebApp\bin\System.Web.Optimization.dll
+D:\hwipro\MyWebApp\bin\System.Web.Razor.dll
+D:\hwipro\MyWebApp\bin\System.Web.WebPages.Deployment.dll
+D:\hwipro\MyWebApp\bin\System.Web.WebPages.dll
+D:\hwipro\MyWebApp\bin\System.Web.WebPages.Razor.dll
+D:\hwipro\MyWebApp\bin\WebGrease.dll
+D:\hwipro\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\hwipro\MyWebApp\bin\System.Web.Helpers.xml
+D:\hwipro\MyWebApp\bin\System.Web.Mvc.xml
+D:\hwipro\MyWebApp\bin\System.Web.Optimization.xml
+D:\hwipro\MyWebApp\bin\System.Web.Razor.xml
+D:\hwipro\MyWebApp\bin\System.Web.WebPages.xml
+D:\hwipro\MyWebApp\bin\System.Web.WebPages.Deployment.xml
+D:\hwipro\MyWebApp\bin\System.Web.WebPages.Razor.xml
+D:\hwipro\MyWebApp\bin\Antlr3.Runtime.pdb
+D:\hwipro\MyWebApp\bin\Newtonsoft.Json.xml
+D:\hwipro\MyWebApp\bin\EntityFramework.xml
+D:\hwipro\MyWebApp\bin\EntityFramework.SqlServer.xml
+D:\hwipro\MyWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+D:\hwipro\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\hwipro\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.Google.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+D:\hwipro\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\hwipro\MyWebApp\obj\Debug\MyWebApp.dll
+D:\hwipro\MyWebApp\obj\Debug\MyWebApp.pdb
+D:\hwipro\MyWebApp\obj\Debug\MyWebApp.csprojResolveAssemblyReference.cache
+E:\hwipro (2)\MyWebApp\bin\roslyn\csc.exe
+E:\hwipro (2)\MyWebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\hwipro (2)\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\hwipro (2)\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\hwipro (2)\MyWebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\hwipro (2)\MyWebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\hwipro (2)\MyWebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\hwipro (2)\MyWebApp\bin\roslyn\System.Collections.Immutable.dll
+E:\hwipro (2)\MyWebApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\hwipro (2)\MyWebApp\bin\roslyn\vbc.exe
+E:\hwipro (2)\MyWebApp\bin\roslyn\VBCSCompiler.exe
+E:\hwipro (2)\MyWebApp\bin\roslyn\VBCSCompiler.exe.config
+E:\hwipro (2)\MyWebApp\bin\MyWebApp.dll.config
+E:\hwipro (2)\MyWebApp\bin\MyWebApp.dll
+E:\hwipro (2)\MyWebApp\bin\MyWebApp.pdb
+E:\hwipro (2)\MyWebApp\bin\Antlr3.Runtime.dll
+E:\hwipro (2)\MyWebApp\bin\EntityFramework.dll
+E:\hwipro (2)\MyWebApp\bin\EntityFramework.SqlServer.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.Google.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\hwipro (2)\MyWebApp\bin\Newtonsoft.Json.dll
+E:\hwipro (2)\MyWebApp\bin\Owin.dll
+E:\hwipro (2)\MyWebApp\bin\System.Web.Helpers.dll
+E:\hwipro (2)\MyWebApp\bin\System.Web.Mvc.dll
+E:\hwipro (2)\MyWebApp\bin\System.Web.Optimization.dll
+E:\hwipro (2)\MyWebApp\bin\System.Web.Razor.dll
+E:\hwipro (2)\MyWebApp\bin\System.Web.WebPages.Deployment.dll
+E:\hwipro (2)\MyWebApp\bin\System.Web.WebPages.dll
+E:\hwipro (2)\MyWebApp\bin\System.Web.WebPages.Razor.dll
+E:\hwipro (2)\MyWebApp\bin\WebGrease.dll
+E:\hwipro (2)\MyWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\hwipro (2)\MyWebApp\bin\System.Web.Helpers.xml
+E:\hwipro (2)\MyWebApp\bin\System.Web.Mvc.xml
+E:\hwipro (2)\MyWebApp\bin\System.Web.Optimization.xml
+E:\hwipro (2)\MyWebApp\bin\System.Web.Razor.xml
+E:\hwipro (2)\MyWebApp\bin\System.Web.WebPages.xml
+E:\hwipro (2)\MyWebApp\bin\System.Web.WebPages.Deployment.xml
+E:\hwipro (2)\MyWebApp\bin\System.Web.WebPages.Razor.xml
+E:\hwipro (2)\MyWebApp\bin\Antlr3.Runtime.pdb
+E:\hwipro (2)\MyWebApp\bin\Newtonsoft.Json.xml
+E:\hwipro (2)\MyWebApp\bin\EntityFramework.xml
+E:\hwipro (2)\MyWebApp\bin\EntityFramework.SqlServer.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.Google.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\hwipro (2)\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\hwipro (2)\MyWebApp\obj\Debug\MyWebApp.csprojResolveAssemblyReference.cache
+E:\hwipro (2)\MyWebApp\obj\Debug\MyWebApp.dll
+E:\hwipro (2)\MyWebApp\obj\Debug\MyWebApp.pdb
+E:\hwipro (2)\MyWebApp\obj\Debug\MyWebApp.Migrations.InitialCreate.resources
+E:\hwipro (2)\MyWebApp\obj\Debug\MyWebApp.csproj.GenerateResource.Cache
+E:\hwipro (2)\MyWebApp\obj\Debug\MyWebApp.Migrations.InitialCreate1.resources

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MyWebApp.Models.Notice>
+
+@{
+    ViewBag.Title = "공지사항";
+}
+
+<h2>DEWS! 공지사항</h2>
+
+<p>
+    @Html.ActionLink("공지사항 쓰기", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WriteDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Writer)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Content)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WriteDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Writer)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Seq }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Seq }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Seq })
+        </td>
+    </tr>
+}
+
+</table>
