@@ -149,23 +149,23 @@
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Getting started</h2>
+        <h2>Welcome~! 이슬청년부 입니다~</h2>
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            사랑의 공동체 이슬청년부에 오신 여러분 환영합니다! 
+            이슬청년부에 대해 궁금하다구요?
         </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <p>@Html.ActionLink("About DEWS~", "About", new { Controller = "Home" }, new { @class = "btn btn-default", style = "background-color: #0094ff; color : white" })</p>
+    </div>
+   
+    <div class="col-md-4">
+        <h2>DEWS 공지사항</h2>
+        <p></p>
+        <p>@Html.ActionLink("바로가기", "", new { Controller = "Notice" }, new { @class = "btn btn-default", style = "background-color: #0094ff; color : white" })</p>
     </div>
     <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <h2>교회홈페이지 바로가기</h2>
+        <p></p>
+        <p><a class="btn btn-default" href="http://www.dwdch.org/"><img src="~/Content/Logo/DWDlogo.gif" ></a></p>
     </div>
 </div>
 <script src="~/Content/jssor.carousel.slider.for.bootstrap.example/js/jssor.slider.mini.js"></script>

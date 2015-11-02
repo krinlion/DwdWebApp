@@ -36,7 +36,8 @@
 
 <body>
     <div class="navmenu navmenu-default navmenu-fixed-left offcanvas" style=" background-color: #87ceeb;">
-        <a class="navmenu-brand color-white"  href="#" style=" background-color: #1e90ff;">이슬청년부</a>
+       
+      @Html.ActionLink("이슬청년부", "", new { Controller = "Home" }, new { @class = "navmenu-brand color-white", style = "background-color: #1e90ff" })
         <ul class="nav navmenu-nav" >
             @if (this.User.Identity.IsAuthenticated == false)
             {

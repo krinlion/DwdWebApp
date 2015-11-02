@@ -222,6 +222,7 @@
     <Content Include="Content\LeftMenu\jasny-bootstrap.min.css" />
     <Content Include="Content\LeftMenu\jasny-bootstrap.min.js" />
     <Content Include="Content\LeftMenu\navmenu-push.css" />
+    <Content Include="Content\Logo\DWDlogo.gif" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
