@@ -5,7 +5,6 @@ using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using MyWebApp.Models;
 
@@ -18,7 +17,7 @@ namespace MyWebApp.Controllers
         // GET: Junior
         public async Task<ActionResult> Index()
         {
-            return View(await db.MemberInfoes.ToListAsync());
+            return View(await db.MemberInfoes.Where(x=> x.Group == "1").ToListAsync());
         }
 
         // GET: Junior/Details/5

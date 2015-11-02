@@ -33,5 +33,7 @@ namespace MyWebApp.Models
         public System.Data.Entity.DbSet<MyWebApp.Models.Notice> Notices { get; set; }
 
         public System.Data.Entity.DbSet<MyWebApp.Models.MemberInfo> MemberInfoes { get; set; }
+
+        public System.Data.Entity.DbSet<MyWebApp.Models.DEWsPictureModels> DEWsPictureModels { get; set; }
     }
 }
