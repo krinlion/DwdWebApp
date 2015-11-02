@@ -484,7 +484,6 @@ D:\hwipro\DwdWebApp\MyWebApp\bin\Microsoft.Owin.Security.OAuth.xml
 D:\hwipro\DwdWebApp\MyWebApp\bin\Microsoft.Owin.Security.Google.xml
 D:\hwipro\DwdWebApp\MyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
 D:\hwipro\DwdWebApp\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.csprojResolveAssemblyReference.cache
 D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.Migrations.InitialCreate.resources
 D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.Migrations.InitialCreate1.resources
 D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.csproj.GenerateResource.Cache

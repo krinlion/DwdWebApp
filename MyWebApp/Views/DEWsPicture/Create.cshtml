@@ -1,18 +1,15 @@
 ﻿
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "사진추가";
 }
 
-<h2>Create</h2>
+<h2>사진등록</h2>
 
 
-@using (Html.BeginForm("Create",
-                        "DEWsPicture",
-                        FormMethod.Post,
-                        new { enctype = "multipart/form-data" }))
+@using (Html.BeginForm("Create","DEWsPicture", FormMethod.Post,new { enctype = "multipart/form-data" }))
 {
     <div class="form-horizontal">
-        <h4>DEWsPictureModels</h4>
+        <h4></h4>
         <hr />
         <div class="form-group">
             <div class="col-md-10">
