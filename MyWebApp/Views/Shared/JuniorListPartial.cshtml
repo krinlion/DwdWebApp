@@ -1,0 +1,29 @@
+﻿@model IEnumerable<MyWebApp.Models.MemberInfo>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsLeader)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Group)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PictureURL)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Email }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Email }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Email })
+        </td>
+    </tr>
+}
+
+</table>
