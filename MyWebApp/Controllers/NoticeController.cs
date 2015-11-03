@@ -11,7 +11,7 @@ using MyWebApp.Models;
 
 namespace MyWebApp.Controllers
 {
-    public class NoticeController : Controller
+    public class NoticeController : DefaultController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 

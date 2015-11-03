@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace MyWebApp.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : DefaultController
     {
        
         public ActionResult Index()

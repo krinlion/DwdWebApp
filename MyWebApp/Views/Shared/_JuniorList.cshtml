@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MyWebApp.Models.MemberInfo>
+@{
+    Layout = null;
+}
+@foreach (var item in Model) {
+
+    <li><a href="#"> @Html.DisplayFor(modelItem => item.Name)</a></li>
+        
+}
