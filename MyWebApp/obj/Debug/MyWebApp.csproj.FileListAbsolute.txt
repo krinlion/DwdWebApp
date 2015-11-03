@@ -489,3 +489,4 @@ D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.Migrations.InitialCreate1.resour
 D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.csproj.GenerateResource.Cache
 D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.dll
 D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.pdb
+D:\hwipro\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.csprojResolveAssemblyReference.cache
