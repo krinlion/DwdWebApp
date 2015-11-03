@@ -243,6 +243,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Shared\_SeniorList.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -293,7 +294,6 @@
     <Content Include="Views\DEWsPicture\Edit.cshtml" />
     <Content Include="Views\DEWsPicture\Index.cshtml" />
     <Content Include="Views\Shared\_JuniorList.cshtml" />
-    <Content Include="Views\Shared\_SeniorList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
