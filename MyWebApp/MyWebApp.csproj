@@ -168,6 +168,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DEWsPictureController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JuniorController.cs" />
@@ -291,11 +292,13 @@
     <Content Include="Views\DEWsPicture\Details.cshtml" />
     <Content Include="Views\DEWsPicture\Edit.cshtml" />
     <Content Include="Views\DEWsPicture\Index.cshtml" />
-    <Content Include="Views\Shared\JuniorListPartial.cshtml" />
+    <Content Include="Views\Shared\_JuniorList.cshtml" />
+    <Content Include="Views\Shared\_SeniorList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Picture\" />
+    <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

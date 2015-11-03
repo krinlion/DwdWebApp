@@ -11,7 +11,7 @@ using MyWebApp.Models;
 
 namespace MyWebApp.Controllers
 {
-    public class DEWsPictureController : Controller
+    public class DEWsPictureController : DefaultController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 

@@ -11,7 +11,7 @@ using MyWebApp.Models;
 namespace MyWebApp.Controllers
 {
     [Authorize]
-    public class ManageController : Controller
+    public class ManageController : DefaultController
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;

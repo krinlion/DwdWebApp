@@ -10,7 +10,7 @@ using MyWebApp.Models;
 
 namespace MyWebApp.Controllers
 {
-    public class JuniorController : Controller
+    public class JuniorController : DefaultController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
