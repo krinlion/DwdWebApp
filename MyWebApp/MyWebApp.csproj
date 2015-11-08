@@ -232,6 +232,8 @@
     <Content Include="Content\Logo\DWDlogo.gif" />
     <Content Include="Content\Logo\imagesCAH5X2QO.jpg" />
     <Content Include="Content\Logo\TradersPointChurch_Team_1.jpg" />
+    <Content Include="Content\Picture\10346285_761907050534821_2723173963871857203_n.jpg" />
+    <Content Include="Content\Picture\Background-pretty-little-liars-tv-show-33571722-1920-1440.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -310,7 +312,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\CSS\" />
-    <Folder Include="Content\Picture\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
