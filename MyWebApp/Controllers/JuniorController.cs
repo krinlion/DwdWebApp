@@ -15,24 +15,35 @@ namespace MyWebApp.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Junior
-        public async Task<ActionResult> Index()
-        {
-            return View(await db.MemberInfoes.Where(x=> x.Group == "1").ToListAsync());
-        }
+        //public ActionResult Index()
+        //{
+           
+        //}
 
         // GET: Junior/Details/5
-        public async Task<ActionResult> Details(string id)
-        {
+        public ActionResult Details(string id)
+        {  
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            MemberInfo memberInfo = await db.MemberInfoes.FindAsync(id);
+            MemberInfo memberInfo = db.MemberInfoes.Find(id);
             if (memberInfo == null)
             {
                 return HttpNotFound();
             }
-            return View(memberInfo);
+
+            var groupInfo = new SmallGroupInfoViewModel
+            {
+                LeaderInfo = memberInfo
+            };
+
+            var memberList = from o in db.MemberInfoes
+                             where o.LeaderEmail == id
+                             select new SmallGroupInfoViewModel.ShortInfo { Name = o.Name, PhoneNumber = o.PhoneNumber };
+            groupInfo.MemerList = memberList.ToList();
+
+            return View(groupInfo);
         }
 
         // GET: Junior/Create
