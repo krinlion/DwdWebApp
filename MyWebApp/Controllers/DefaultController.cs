@@ -15,12 +15,12 @@ namespace MyWebApp.Controllers
         // GET: Default
         public ActionResult _JuniorList()
         {
-            return View( db.MemberInfoes.Where(x => x.Group == "1").ToList());
+            return View( db.MemberInfoes.Where(x => x.Group == "1" && x.IsLeader == "Y").ToList());
         }
 
         public ActionResult _SeniorList()
         {
-            return View(db.MemberInfoes.Where(x => x.Group == "2").ToList());
+            return View(db.MemberInfoes.Where(x => x.Group == "2" && x.IsLeader == "Y").ToList());
         }
     }
 }

@@ -174,6 +174,7 @@
     <Compile Include="Controllers\JuniorController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NoticeController.cs" />
+    <Compile Include="Controllers\SeniorController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -192,6 +193,7 @@
     <Compile Include="Models\MemberModels.cs" />
     <Compile Include="Models\DEWsPictureModels.cs" />
     <Compile Include="Models\NoticeModels.cs" />
+    <Compile Include="Models\SmallGroupInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -227,6 +229,8 @@
     <Content Include="Content\Logo\DWDlogo.gif" />
     <Content Include="Content\Logo\imagesCAH5X2QO.jpg" />
     <Content Include="Content\Logo\TradersPointChurch_Team_1.jpg" />
+    <Content Include="Content\Picture\10346285_761907050534821_2723173963871857203_n.jpg" />
+    <Content Include="Content\Picture\Background-pretty-little-liars-tv-show-33571722-1920-1440.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -245,6 +249,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Junior\Details.cshtml" />
     <Content Include="Views\Shared\_SeniorList.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -287,7 +292,6 @@
     <Content Include="Views\Notice\Index.cshtml" />
     <Content Include="Views\Junior\Create.cshtml" />
     <Content Include="Views\Junior\Delete.cshtml" />
-    <Content Include="Views\Junior\Details.cshtml" />
     <Content Include="Views\Junior\Edit.cshtml" />
     <Content Include="Views\Junior\Index.cshtml" />
     <Content Include="Views\DEWsPicture\Create.cshtml" />
@@ -296,10 +300,14 @@
     <Content Include="Views\DEWsPicture\Edit.cshtml" />
     <Content Include="Views\DEWsPicture\Index.cshtml" />
     <Content Include="Views\Shared\_JuniorList.cshtml" />
+    <Content Include="Views\Senior\Create.cshtml" />
+    <Content Include="Views\Senior\Delete.cshtml" />
+    <Content Include="Views\Senior\Details.cshtml" />
+    <Content Include="Views\Senior\Edit.cshtml" />
+    <Content Include="Views\Senior\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Picture\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>

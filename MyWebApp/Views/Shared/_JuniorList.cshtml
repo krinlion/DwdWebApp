@@ -2,7 +2,7 @@
 @{
     Layout = null;
 }
-@foreach (var item in Model) {
-        
-    <li>@Html.ActionLink(item.Name, "DETAIL", "Junior",new {id = item.Email }, new { })</li>
+@foreach (var item in Model)
+{
+    <li><a href="/Junior/DETAILS/@item.Email">@item.Name</a></li>
 }

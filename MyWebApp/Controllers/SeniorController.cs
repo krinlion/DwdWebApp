@@ -5,24 +5,25 @@ using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Net;
+using System.Web;
 using System.Web.Mvc;
 using MyWebApp.Models;
 
 namespace MyWebApp.Controllers
 {
-    public class JuniorController : DefaultController
+    public class SeniorController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Junior
         //public ActionResult Index()
         //{
-           
+
         //}
 
         // GET: Junior/Details/5
         public ActionResult Details(string id)
-        {  
+        {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);

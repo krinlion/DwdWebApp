@@ -54,6 +54,27 @@ namespace MyWebApp.Models
         [Display(Name = "사진")]
         [DataType(DataType.ImageUrl)]
         public string PictureURL { get; set; }
-        
+
+        /// <summary>
+        /// 설명
+        /// </summary>
+        [Column("DESCRIPTION")]
+        [Display(Name = "설명")]
+        [DataType(DataType.ImageUrl)]
+        public string Description { get; set; }
+
+        /// <summary>
+        /// 리더 계정
+        /// </summary>
+        [Column("LEADER_EMAIL")]
+        [DataType(DataType.EmailAddress)]
+        public string LeaderEmail { get; set; }
+
+        /// <summary>
+        /// 전화번호
+        /// </summary>
+        [Column("PHONE_NUMBER")]
+        [DataType(DataType.PhoneNumber)]
+        public string PhoneNumber { get; set; }
     }
 }
