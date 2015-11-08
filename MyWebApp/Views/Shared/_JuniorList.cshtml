@@ -3,7 +3,6 @@
     Layout = null;
 }
 @foreach (var item in Model) {
-
-    <li><a href="#"> @Html.DisplayFor(modelItem => item.Name)</a></li>
         
+    <li>@Html.ActionLink(item.Name, "DETAIL", "Junior",new {id = item.Email }, new { })</li>
 }
