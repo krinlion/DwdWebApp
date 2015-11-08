@@ -301,6 +301,11 @@
     <Content Include="Views\DEWsPicture\Edit.cshtml" />
     <Content Include="Views\DEWsPicture\Index.cshtml" />
     <Content Include="Views\Shared\_JuniorList.cshtml" />
+    <Content Include="Views\Senior\Create.cshtml" />
+    <Content Include="Views\Senior\Delete.cshtml" />
+    <Content Include="Views\Senior\Details.cshtml" />
+    <Content Include="Views\Senior\Edit.cshtml" />
+    <Content Include="Views\Senior\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
