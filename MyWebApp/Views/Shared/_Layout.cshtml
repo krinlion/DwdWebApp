@@ -34,7 +34,7 @@
     </style>
 </head>
 
-<body>
+<body style="background-image:url(../../Content/BackgoundImage/furley_bg.png)">
     <div class="navmenu navmenu-default navmenu-fixed-left offcanvas" style=" background-color: #87ceeb;">
        
       @Html.ActionLink("이슬청년부", "", new { Controller = "Home" }, new { @class = "navmenu-brand color-white", style = "background-color: #1e90ff" })
@@ -77,15 +77,15 @@
         </ul>
     </div>
 
-    <div class="navbar navbar-default navbar-fixed-top">
-        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+    <div class="navbar navbar-default navbar-fixed-top" >
+        <button type="button" class="navbar-toggle" style="color:white"data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        @Html.ActionLink("DEWS! 힘써알자 예수님!!", "Index", new { controller = "Home" }, new { @class = "navbar-brand"})
+        @Html.ActionLink("DEWS! 힘써알자 예수님!!", "Index", new { controller = "Home" }, new { @class = "navbar-brand" })
     </div>
-
+    
     <div class="container visible-md visible-lg">
         <div class="page-header"></div>
     </div><!-- /.container -->
