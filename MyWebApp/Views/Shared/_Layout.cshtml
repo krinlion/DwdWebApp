@@ -35,9 +35,9 @@
 </head>
 
 <body style="background-image:url(../../Content/BackgoundImage/furley_bg.png)">
-    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas" style=" background-color: #87ceeb;">
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas" style="background-image:url(/Content/BackgoundImage/grey_wash_wall.png)">
        
-      @Html.ActionLink("이슬청년부", "", new { Controller = "Home" }, new { @class = "navmenu-brand color-white", style = "background-color: #1e90ff" })
+      @Html.ActionLink("이슬청년부", "", new { Controller = "Home" }, new { @class = "navmenu-brand", style = "background-image:url(/Content/BackgoundImage/furley_bg.png)" })
         <ul class="nav navmenu-nav" >
             @if (this.User.Identity.IsAuthenticated == false)
             {

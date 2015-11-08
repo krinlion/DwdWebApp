@@ -203,8 +203,8 @@
     <Content Include="Content\BannerImage\02.jpg" />
     <Content Include="Content\BannerImage\03.jpg" />
     <Content Include="Content\BannerImage\04.jpg" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CSS\bootstrap.css" />
+    <Content Include="Content\CSS\bootstrap.min.css" />
     <Content Include="Content\jssor.carousel.slider.for.bootstrap.example\examples-bootstrap\bootstrap-carousel.html" />
     <Content Include="Content\jssor.carousel.slider.for.bootstrap.example\examples-bootstrap\bootstrap-slider.html" />
     <Content Include="Content\jssor.carousel.slider.for.bootstrap.example\examples-bootstrap\bootstrap.min.css" />
@@ -230,10 +230,14 @@
     <Content Include="Content\Logo\DWDlogo.gif" />
     <Content Include="Content\Logo\imagesCAH5X2QO.jpg" />
     <Content Include="Content\Logo\TradersPointChurch_Team_1.jpg" />
+    <Content Include="Content\Picture\discipleship-1024x379.jpg" />
+    <Content Include="Content\Picture\missionspage.header.jpg" />
+    <Content Include="Content\Picture\service.jpg" />
+    <Content Include="Content\Picture\When-Worship.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\CSS\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -302,8 +306,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\CSS\" />
-    <Folder Include="Content\Picture\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
