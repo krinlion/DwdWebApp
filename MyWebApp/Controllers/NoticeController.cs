@@ -18,6 +18,18 @@ namespace MyWebApp.Controllers
         // GET: Notice
         public async Task<ActionResult> Index()
         {
+            NoticeViewModel viewModel = new NoticeViewModel();
+            viewModel.NoticeList = await db.Notices.ToListAsync();
+
+            if (User.Identity.IsAuthenticated == true)
+            {
+                ViewBag.IsAdmin = db.MemberInfoes.Where(x => x.Email == User.Identity.Name && x.IsAdmin == true).Any();
+            }
+            else
+            {
+                ViewBag.IsAdmin = false;
+            }
+
             return View(await db.Notices.ToListAsync());
         }
 

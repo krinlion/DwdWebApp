@@ -27,7 +27,7 @@
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
+    <tr style="cursor:pointer;" onclick="location.href='@(Url.Action("DETAILS",new { id =  item.Seq}))'">
         <td>
             @Html.DisplayFor(modelItem => item.Title)
         </td>
@@ -41,9 +41,11 @@
             @Html.DisplayFor(modelItem => item.Writer)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Seq }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Seq }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Seq })
+
+            <div style="display:@(ViewBag.IsAdmin?"block":"none")">
+                @Html.ActionLink("Edit", "Edit", new { id = item.Seq })|
+                @Html.ActionLink("Delete", "Delete", new { id = item.Seq })
+            </div>
         </td>
     </tr>
 }

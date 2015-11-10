@@ -76,5 +76,11 @@ namespace MyWebApp.Models
         [Column("PHONE_NUMBER")]
         [DataType(DataType.PhoneNumber)]
         public string PhoneNumber { get; set; }
+
+        /// <summary>
+        /// 관리자여부
+        /// </summary>
+        [Column("IS_ADMIN")]
+        public bool IsAdmin { get; set; }
     }
 }

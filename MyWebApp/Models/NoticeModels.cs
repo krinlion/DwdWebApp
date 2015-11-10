@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -35,5 +36,11 @@ namespace MyWebApp.Models
         [DataType(DataType.Text)]
         [Display(Name = "글쓴이")]
         public string Writer { get; set; }
+    }
+
+    public class NoticeViewModel
+    {
+        public bool IsAdmin { get; set; }
+        public List<Notice> NoticeList { get; set; }
     }
 }
