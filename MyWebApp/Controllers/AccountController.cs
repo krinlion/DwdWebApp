@@ -17,6 +17,7 @@ namespace MyWebApp.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
+        private ApplicationDbContext db = new ApplicationDbContext();
 
         public AccountController()
         {
@@ -157,6 +158,21 @@ namespace MyWebApp.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
+                    byte[] byteStream = new byte[model.OptionalInfo.PictureURL.ContentLength];
+                    model.OptionalInfo.PictureURL.InputStream.Read(byteStream, 0, model.OptionalInfo.PictureURL.ContentLength);
+
+                    db.MemberInfoes.Add(new MemberInfo
+                    {
+                        Email = model.Email,
+                        Name = model.UserName,
+                        IsLeader = model.OptionalInfo.IsLeader ? "Y" : "N",
+                        PhoneNumber = model.PhoneNumber,
+                        Picture = byteStream,
+                        PictureType = model.OptionalInfo.PictureURL.ContentType,
+                        Group = model.OptionalInfo.Group
+                    });
+                    db.SaveChanges();
+
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
                     
                     // 계정 확인 및 암호 재설정을 사용하도록 설정하는 방법에 대한 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=320771을 참조하십시오.

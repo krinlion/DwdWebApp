@@ -50,10 +50,13 @@ namespace MyWebApp.Models
         /// <summary>
         /// 사진
         /// </summary>
-        [Column("PICTURE_URL")]
         [Display(Name = "사진")]
-        [DataType(DataType.ImageUrl)]
-        public string PictureURL { get; set; }
+        [Column("PICTURE", TypeName = "Image")]
+        public byte[] Picture { get; set; }
+
+        [Column("PictureType")]
+        [DataType(DataType.Text)]
+        public string PictureType { get; set; }
 
         /// <summary>
         /// 설명
@@ -82,5 +85,42 @@ namespace MyWebApp.Models
         /// </summary>
         [Column("IS_ADMIN")]
         public bool IsAdmin { get; set; }
+    }
+
+    public class MemberInfoViewModel
+    {
+        /// <summary>
+        /// 이메일(계정)
+        /// </summary>
+        public string Email { get; set; }
+
+        [Display(Name = "리더여부")]
+        public bool IsLeader { get; set; }
+
+        [Display(Name = "12청년")]
+        public string Group { get; set; }
+
+        
+        [Display(Name = "이름")]
+        public string Name { get; set; }
+
+        /// <summary>
+        /// 사진
+        /// </summary>
+        [Display(Name = "사진")]
+        [DataType(DataType.Upload)]
+        public HttpPostedFileBase PictureURL { get; set; }
+
+        /// <summary>
+        /// 설명
+        /// </summary>
+        [Display(Name = "설명")]
+        public string Description { get; set; }
+        
+        /// <summary>
+        /// 전화번호
+        /// </summary>
+        [Display(Name = "전화번호")]
+        public string PhoneNumber { get; set; }
     }
 }

@@ -91,7 +91,7 @@ namespace MyWebApp.Models
         [Display(Name = "전화번호")]
         public string PhoneNumber { get; set; }
 
-        // public MemberInfo OptionalInfo { get; set; }
+        public MemberInfoViewModel OptionalInfo { get; set; }
     }
 
     public class ResetPasswordViewModel

@@ -234,6 +234,7 @@
     <Content Include="Content\Logo\TradersPointChurch_Team_1.jpg" />
     <Content Include="Content\Picture\10346285_761907050534821_2723173963871857203_n.jpg" />
     <Content Include="Content\Picture\Background-pretty-little-liars-tv-show-33571722-1920-1440.jpg" />
+    <Content Include="Content\Picture\noimage.gif" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -292,22 +293,14 @@
     <Content Include="Views\Notice\Details.cshtml" />
     <Content Include="Views\Notice\Edit.cshtml" />
     <Content Include="Views\Notice\Index.cshtml" />
-    <Content Include="Views\Junior\Create.cshtml" />
-    <Content Include="Views\Junior\Delete.cshtml" />
     <Content Include="Views\Junior\Details.cshtml" />
-    <Content Include="Views\Junior\Edit.cshtml" />
-    <Content Include="Views\Junior\Index.cshtml" />
     <Content Include="Views\DEWsPicture\Create.cshtml" />
     <Content Include="Views\DEWsPicture\Delete.cshtml" />
     <Content Include="Views\DEWsPicture\Details.cshtml" />
     <Content Include="Views\DEWsPicture\Edit.cshtml" />
     <Content Include="Views\DEWsPicture\Index.cshtml" />
     <Content Include="Views\Shared\_JuniorList.cshtml" />
-    <Content Include="Views\Senior\Create.cshtml" />
-    <Content Include="Views\Senior\Delete.cshtml" />
     <Content Include="Views\Senior\Details.cshtml" />
-    <Content Include="Views\Senior\Edit.cshtml" />
-    <Content Include="Views\Senior\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
