@@ -49,10 +49,11 @@
                     @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
                     {
                         @Html.AntiForgeryToken()
-                        <a href="javascript:document.getElementById('logoutForm').submit()">로그아웃</a>
+                        <a href="javascript:document.getElementById('logoutForm').submit()" class="nav navmenu-nav color-white">로그아웃</a>
                     }
                 </li>
             }
+            
             <li>@Html.ActionLink("공지사항", "", new { Controller = "Notice" }, new { @class = "color-white" })</li>
             <li>@Html.ActionLink("공동체소개", "About", new { Controller = "Home" }, new { @class = "color-white" })</li>
         </ul>
@@ -83,7 +84,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        @Html.ActionLink("DEWS! 힘써알자 예수님!!", "Index", new { controller = "Home" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("DEWS! 힘써알자 JESUS!!", "Index", new { controller = "Home" }, new { @class = "navbar-brand" })
     </div>
     
     <div class="container visible-md visible-lg">

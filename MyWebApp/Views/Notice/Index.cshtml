@@ -6,7 +6,8 @@
 
 <h2>DEWS! 공지사항</h2>
 
-<p>
+<h3>@ViewBag.나는누구</h3>
+<p style="display:@(ViewBag.IsAdmin?"block":"none")">
     @Html.ActionLink("공지사항 쓰기", "Create")
 </p>
 <table class="table">

@@ -30,6 +30,8 @@ namespace MyWebApp.Controllers
                 ViewBag.IsAdmin = false;
             }
 
+            ViewBag.나는누구 = "유휘성";
+
             return View(await db.Notices.ToListAsync());
         }
 
