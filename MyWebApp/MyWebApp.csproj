@@ -207,6 +207,9 @@
     <Content Include="Content\BannerImage\04.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CSS\bootstrap.css" />
+    <Content Include="Content\CSS\bootstrap.min.css" />
+    <Content Include="Content\CSS\Site.css" />
     <Content Include="Content\jssor.carousel.slider.for.bootstrap.example\examples-bootstrap\bootstrap-carousel.html" />
     <Content Include="Content\jssor.carousel.slider.for.bootstrap.example\examples-bootstrap\bootstrap-slider.html" />
     <Content Include="Content\jssor.carousel.slider.for.bootstrap.example\examples-bootstrap\bootstrap.min.css" />
@@ -235,10 +238,10 @@
     <Content Include="Content\Picture\10346285_761907050534821_2723173963871857203_n.jpg" />
     <Content Include="Content\Picture\Background-pretty-little-liars-tv-show-33571722-1920-1440.jpg" />
     <Content Include="Content\Picture\noimage.gif" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\dwdDews - FTP.pubxml" />
@@ -306,7 +309,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\CSS\" />
     <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
