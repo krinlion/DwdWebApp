@@ -1,7 +1,7 @@
 ﻿@model MyWebApp.Models.SmallGroupInfoViewModel
 
 @{
-    ViewBag.Title = String.Format("{0}소그룹", Model.LeaderInfo.Name);
+    ViewBag.Title = String.Format("{0}청년부 {1}소그룹", Model.LeaderInfo.Name, Model.LeaderInfo.Group);
 }
 
 <h2>@ViewBag.Title</h2>
@@ -256,6 +256,20 @@
     }
 </style>
 
+@{
+    string base64Image;
+    string imageSrc;
+    if (Model.LeaderInfo.Picture != null)
+    {
+        base64Image = Convert.ToBase64String(Model.LeaderInfo.Picture);
+        imageSrc = String.Format("data:{0};base64,{1}", Model.LeaderInfo.PictureType, base64Image);
+    }
+    else
+    {
+        imageSrc = "/Content/Picture/noimage.gif";
+    }
+}
+
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <div class="container">
     <div class="row">
@@ -265,7 +279,7 @@
 
                 </div>
                 <div class="avatar">
-                    <img alt="" src="@Model.LeaderInfo.PictureURL">
+                    <img alt="" src="@imageSrc">
                 </div>
                 <div class="info">
                     <div class="title">
