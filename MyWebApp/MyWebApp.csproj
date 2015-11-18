@@ -178,13 +178,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201510080759580_InitialCreate.cs" />
-    <Compile Include="Migrations\201510080759580_InitialCreate.Designer.cs">
-      <DependentUpon>201510080759580_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201510251316390_InitialCreate1.cs" />
-    <Compile Include="Migrations\201510251316390_InitialCreate1.Designer.cs">
-      <DependentUpon>201510251316390_InitialCreate1.cs</DependentUpon>
+    <Compile Include="Migrations\201511181441386_Initial.cs" />
+    <Compile Include="Migrations\201511181441386_Initial.Designer.cs">
+      <DependentUpon>201511181441386_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -199,7 +195,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\BackgoundImage\furley_bg.png" />
-    <Content Include="Content\BackgoundImage\grey_wash_wall.png" />
     <Content Include="Content\BackgoundImage\grey_wash_wall_2X.png" />
     <Content Include="Content\BannerImage\01.jpg" />
     <Content Include="Content\BannerImage\02.jpg" />
@@ -246,6 +241,8 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\dwdDews - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\dwdDews - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\dwdDews.pubxml" />
+    <None Include="Properties\PublishProfiles\Windows Server 2012 R2.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -320,11 +317,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201510080759580_InitialCreate.resx">
-      <DependentUpon>201510080759580_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201510251316390_InitialCreate1.resx">
-      <DependentUpon>201510251316390_InitialCreate1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201511181441386_Initial.resx">
+      <DependentUpon>201511181441386_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
