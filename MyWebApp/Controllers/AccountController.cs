@@ -21,10 +21,10 @@ namespace MyWebApp.Controllers
 
         public AccountController()
         {
-            
+
         }
 
-        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
+        public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
             UserManager = userManager;
             SignInManager = signInManager;
@@ -36,9 +36,9 @@ namespace MyWebApp.Controllers
             {
                 return _signInManager ?? HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
             }
-            private set 
-            { 
-                _signInManager = value; 
+            private set
+            {
+                _signInManager = value;
             }
         }
 
@@ -122,7 +122,7 @@ namespace MyWebApp.Controllers
             // 사용자가 지정된 시간 동안 잘못된 코드를 입력하면 
             // 지정된 시간 동안 사용자 계정이 잠깁니다. 
             // IdentityConfig에서 계정 잠금 설정을 구성할 수 있습니다.
-            var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code, isPersistent:  model.RememberMe, rememberBrowser: model.RememberBrowser);
+            var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code, isPersistent: model.RememberMe, rememberBrowser: model.RememberBrowser);
             switch (result)
             {
                 case SignInStatus.Success:
@@ -153,8 +153,13 @@ namespace MyWebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = model.UserName, Email = model.Email, PhoneNumber = model.PhoneNumber};
-                
+                var user = new ApplicationUser
+                {
+                    UserName = String.Format("{0}/{1}", model.Email, model.UserName),
+                    Email = model.Email,
+                    PhoneNumber = model.PhoneNumber
+                };
+
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {
@@ -173,8 +178,8 @@ namespace MyWebApp.Controllers
                     });
                     db.SaveChanges();
 
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
-                    
+                    await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
+
                     // 계정 확인 및 암호 재설정을 사용하도록 설정하는 방법에 대한 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=320771을 참조하십시오.
                     // 이 링크를 통해 전자 메일 보내기
                     // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
