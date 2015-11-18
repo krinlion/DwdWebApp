@@ -556,7 +556,9 @@ C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\bin\Microsoft.Owin.Security.OAut
 C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.csprojResolveAssemblyReference.cache
+C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.Migrations.InitialCreate.resources
+C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.Migrations.InitialCreate1.resources
+C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.csproj.GenerateResource.Cache
 C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.dll
 C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.pdb
-C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.Migrations.Initial.resources
-C:\Users\신철\Source\Repos\DwdWebApp\MyWebApp\obj\Debug\MyWebApp.csproj.GenerateResource.Cache

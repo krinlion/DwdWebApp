@@ -23,11 +23,7 @@ namespace MyWebApp.Controllers
 
             if (User.Identity.IsAuthenticated == true)
             {
-                var email = User.Identity.Name.Split('/');
-                if (email.Length > 0 && String.IsNullOrEmpty(email[0]) == false)
-                {
-                    ViewBag.IsAdmin = db.MemberInfoes.Where(x => x.Email == User.Identity.Name && x.IsAdmin == true).Any();
-                }
+                ViewBag.IsAdmin = db.MemberInfoes.Where(x => x.Email == User.Identity.Name && x.IsAdmin == true).Any();
             }
             else
             {
