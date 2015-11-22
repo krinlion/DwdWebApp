@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using MyWebApp.Models;
+using System.Collections.Generic;
 
 namespace MyWebApp.Controllers
 {
@@ -141,6 +142,8 @@ namespace MyWebApp.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
+            var LeaderList = db.MemberInfoes.Where(x=> x.IsLeader == "Y");
+            ViewBag.LeaderList = LeaderList.ToList();
             return View();
         }
 
@@ -155,12 +158,12 @@ namespace MyWebApp.Controllers
             {
                 var user = new ApplicationUser { UserName = model.UserName, Email = model.Email, PhoneNumber = model.PhoneNumber};
                 
-                var result = await UserManager.CreateAsync(user, model.Password);
+                var result = await UserManager.CreateAsync(user, model.Password);// 기본계정 정보저장
                 if (result.Succeeded)
                 {
                     byte[] byteStream = new byte[model.OptionalInfo.PictureURL.ContentLength];
                     model.OptionalInfo.PictureURL.InputStream.Read(byteStream, 0, model.OptionalInfo.PictureURL.ContentLength);
-
+                    //inputstream  을 bytestream 으로 저장해서 그림 파일 바이트로 변환 
                     db.MemberInfoes.Add(new MemberInfo
                     {
                         Email = model.Email,
@@ -169,11 +172,13 @@ namespace MyWebApp.Controllers
                         PhoneNumber = model.PhoneNumber,
                         Picture = byteStream,
                         PictureType = model.OptionalInfo.PictureURL.ContentType,
-                        Group = model.OptionalInfo.Group
+                        Group = model.OptionalInfo.Group,
+                        Description = model.OptionalInfo.Description,
+                        LeaderEmail = model.OptionalInfo.LeaderEmail
                     });
-                    db.SaveChanges();
+                    db.SaveChanges();// 여기 지나면서 저장 
 
-                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
+                    await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false); //자동 로그인 
                     
                     // 계정 확인 및 암호 재설정을 사용하도록 설정하는 방법에 대한 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=320771을 참조하십시오.
                     // 이 링크를 통해 전자 메일 보내기

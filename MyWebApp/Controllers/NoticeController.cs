@@ -21,18 +21,18 @@ namespace MyWebApp.Controllers
             NoticeViewModel viewModel = new NoticeViewModel();
             viewModel.NoticeList = await db.Notices.ToListAsync();
 
-            if (User.Identity.IsAuthenticated == true)
+            if (User.Identity.IsAuthenticated == true) //로그인 사용자 
             {
+                //관리자 이면 
                 ViewBag.IsAdmin = db.MemberInfoes.Where(x => x.Email == User.Identity.Name && x.IsAdmin == true).Any();
             }
             else
             {
                 ViewBag.IsAdmin = false;
             }
-
-            ViewBag.나는누구 = "유휘성";
-
-            return View(await db.Notices.ToListAsync());
+            //요기까지 관리자 이냐 아니냐 판별
+            
+            return View(await db.Notices.ToListAsync());// 요기는 공지사항 모든 리스트를 뷰에 던진다 
         }
 
         // GET: Notice/Details/5
