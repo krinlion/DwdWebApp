@@ -237,7 +237,12 @@
     <Content Include="Content\Logo\TradersPointChurch_Team_1.jpg" />
     <Content Include="Content\Picture\10346285_761907050534821_2723173963871857203_n.jpg" />
     <Content Include="Content\Picture\Background-pretty-little-liars-tv-show-33571722-1920-1440.jpg" />
+    <Content Include="Content\Picture\discipleship-1024x379.jpg" />
+    <Content Include="Content\Picture\missionspage.header.jpg" />
     <Content Include="Content\Picture\noimage.gif" />
+    <Content Include="Content\Picture\service.jpg" />
+    <Content Include="Content\Picture\When-Worship.jpg" />
+    <Content Include="Content\Picture\Worship.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
