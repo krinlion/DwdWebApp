@@ -3,10 +3,37 @@ namespace MyWebApp.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InitialCreate : DbMigration
+    public partial class Initial : DbMigration
     {
         public override void Up()
         {
+            CreateTable(
+                "dbo.DEWsPictureModels",
+                c => new
+                    {
+                        SEQ = c.Int(nullable: false, identity: true),
+                        IMAGE = c.Binary(nullable: false, storeType: "image"),
+                        IMAGE_TYPE = c.String(nullable: false),
+                    })
+                .PrimaryKey(t => t.SEQ);
+            
+            CreateTable(
+                "dbo.MemberInfoes",
+                c => new
+                    {
+                        EMAIL = c.String(nullable: false, maxLength: 128),
+                        IS_LEADER = c.String(),
+                        GROUP = c.String(),
+                        NAME = c.String(),
+                        PICTURE = c.Binary(storeType: "image"),
+                        PictureType = c.String(),
+                        DESCRIPTION = c.String(),
+                        LEADER_EMAIL = c.String(),
+                        PHONE_NUMBER = c.String(),
+                        IS_ADMIN = c.Boolean(nullable: false),
+                    })
+                .PrimaryKey(t => t.EMAIL);
+            
             CreateTable(
                 "dbo.Notices",
                 c => new
@@ -107,6 +134,8 @@ namespace MyWebApp.Migrations
             DropTable("dbo.AspNetUserRoles");
             DropTable("dbo.AspNetRoles");
             DropTable("dbo.Notices");
+            DropTable("dbo.MemberInfoes");
+            DropTable("dbo.DEWsPictureModels");
         }
     }
 }
